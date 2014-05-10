@@ -98,22 +98,28 @@ private void PrikaziTocniBukvi()
             }
             r.Close();
             List<Records.User> res;
-            foreach (Records.User current in users) {
-                if (current.Score < Poeni) {
+            foreach (Records.User current in users) 
+            {
+                if (current.Score < Poeni) 
+                {
                     if (MessageBox.Show("Срушивте рекорд!\nДали сакате да го зачувате успехот?", "Рекорд!",
-                    MessageBoxButtons.YesNo, MessageBoxIcon.Question) == System.Windows.Forms.DialogResult.Yes) {
+                    MessageBoxButtons.YesNo, MessageBoxIcon.Question) == System.Windows.Forms.DialogResult.Yes) 
+                    {
                         string ime = Interaction.InputBox("Внесете име", "Рекорд!", string.Empty, -1, -1); 
                         users = users.OrderByDescending(x => x.Score).ToList();
                         Records.User pom = new Records.User(ime, Poeni);
                         res = new List<Records.User>();
                         bool isPassed = false;
-                        foreach (Records.User here in users) {
-                            if ((pom.Score > here.Score) && !isPassed) {
+                        foreach (Records.User here in users) 
+                        {
+                            if ((pom.Score > here.Score) && !isPassed) 
+                            {
                                 res.Add(pom);
                                 res.Add(here);
                                 isPassed = true;
                             }
-                            else {
+                            else 
+                            {
                                 res.Add(here);
                             }
                         }
