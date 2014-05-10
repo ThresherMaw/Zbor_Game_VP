@@ -86,7 +86,6 @@ private void PrikaziTocniBukvi()
         } 
 ```
 <br />
-<br />
 2. Метода за запишување на освоените поени во листата на рекорди. При затворање на играта на копчето Close (X) се појавува форма за внесување на името на играчот во листата. Таа се содржи од 5 рекорди подредени по опаѓачки редослед.
 ```
         protected override void OnFormClosing(FormClosingEventArgs e)
@@ -105,7 +104,8 @@ private void PrikaziTocniBukvi()
             {
                 if (current.Score < Poeni)
                 {
-                    if (MessageBox.Show("Срушивте рекорд!\nДали сакате да го зачувате успехот?", "Рекорд!", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == System.Windows.Forms.DialogResult.Yes)
+                    if (MessageBox.Show("Срушивте рекорд!\nДали сакате да го зачувате успехот?", "Рекорд!", <br />
+                    MessageBoxButtons.YesNo, MessageBoxIcon.Question) == System.Windows.Forms.DialogResult.Yes)
                     {
                         string ime = Interaction.InputBox("Внесете име", "Рекорд!", string.Empty, -1, -1);
                         users = users.OrderByDescending(x => x.Score).ToList();
