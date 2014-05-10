@@ -104,7 +104,7 @@ private void PrikaziTocniBukvi()
             {
                 if (current.Score < Poeni)
                 {
-                    if (MessageBox.Show("Срушивте рекорд!\nДали сакате да го зачувате успехот?", "Рекорд!", <br />
+                    if (MessageBox.Show("Срушивте рекорд!\nДали сакате да го зачувате успехот?", "Рекорд!",
                     MessageBoxButtons.YesNo, MessageBoxIcon.Question) == System.Windows.Forms.DialogResult.Yes)
                     {
                         string ime = Interaction.InputBox("Внесете име", "Рекорд!", string.Empty, -1, -1);
