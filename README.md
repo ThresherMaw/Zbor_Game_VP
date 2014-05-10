@@ -28,3 +28,17 @@
 <li>На почетокот се прикажуваат две букви кои се составен дел од зборот. Со доближување на курсорот до прикажаните букви се добива коментар дека тие се наоѓаат на точна позиција во зборот. Тоа можеме да го забележиме од наредната слика. Тие, исто како целиот збор, се случајно генерирани букви.
 </ul>
 <img src="http://imgur.com/enemp3x.png" alt ="Correct position"/>
+```
+ #region Nacin na boduvanje
+        
+        int Poeni;
+        System.Timers.Timer bonusTimer = new System.Timers.Timer();
+        int bonusPoeni;
+        delegate void PerformActivityCallback();
+        const int maxBonusPoeni = 1000;
+        const int BonusTimerInterval = 100;
+        Color[] ColorMap = new Color[100];
+        float ColorMapIndexFactor = 0.1F;
+        
+        #endregion
+```
