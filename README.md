@@ -39,7 +39,7 @@
 ---
 <p>Играта во целост има голем број на методи, но овде ќе се спомнат само некои поважни</p>
 <ul>
-<li>Метода за прикажување на точни (погодени) букви, кои се обојуваат со горе наведената боја и инстантно се запишуваат во наредната. Подетално методата е објаснета со следниот блок на код.
+<li>Метода за прикажување на точни (погодени) букви, кои се обојуваат со горе наведената боја и инстантно се запишуваат во наредната. Подетално методата е објаснета со следниот блок на код.</li>
 ```
 private void PrikaziTocniBukvi()
         {
@@ -51,7 +51,7 @@ private void PrikaziTocniBukvi()
                 {
                     labelPosition = momentalnaSostojba * dolzinaZbor + i;
 
-                    // Prikazi go tocno vneseniot zbor na tocna pozicija
+                   // Prikazi go tocno vneseniot zbor na tocna pozicija
                     layout.Controls[labelPosition].Text = txtGuess.Text[i] + "";
 
                     // Ako se sovpagja bukva
@@ -82,9 +82,8 @@ private void PrikaziTocniBukvi()
                     bukviVoZbor[i] = (txtGuess.Text[i] == zborZaPogagjanje[i]);
                 }
             }
-        }
+        } 
 ```
-</li>
 
 </ul>
 
