@@ -49,6 +49,7 @@
             // lblNo1
             // 
             this.lblNo1.AutoSize = true;
+            this.lblNo1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNo1.Location = new System.Drawing.Point(13, 13);
             this.lblNo1.Name = "lblNo1";
             this.lblNo1.Size = new System.Drawing.Size(16, 13);
@@ -58,6 +59,7 @@
             // lblNo2
             // 
             this.lblNo2.AutoSize = true;
+            this.lblNo2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNo2.Location = new System.Drawing.Point(13, 39);
             this.lblNo2.Name = "lblNo2";
             this.lblNo2.Size = new System.Drawing.Size(16, 13);
@@ -67,6 +69,7 @@
             // lblNo3
             // 
             this.lblNo3.AutoSize = true;
+            this.lblNo3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNo3.Location = new System.Drawing.Point(13, 65);
             this.lblNo3.Name = "lblNo3";
             this.lblNo3.Size = new System.Drawing.Size(16, 13);
@@ -76,6 +79,7 @@
             // lblNo4
             // 
             this.lblNo4.AutoSize = true;
+            this.lblNo4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNo4.Location = new System.Drawing.Point(13, 91);
             this.lblNo4.Name = "lblNo4";
             this.lblNo4.Size = new System.Drawing.Size(16, 13);
@@ -85,6 +89,7 @@
             // lblNo5
             // 
             this.lblNo5.AutoSize = true;
+            this.lblNo5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNo5.Location = new System.Drawing.Point(13, 117);
             this.lblNo5.Name = "lblNo5";
             this.lblNo5.Size = new System.Drawing.Size(16, 13);
@@ -93,46 +98,57 @@
             // 
             // lblName1
             // 
-            this.lblName1.Location = new System.Drawing.Point(53, 13);
+            this.lblName1.Font = new System.Drawing.Font("Rockwell Condensed", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblName1.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.lblName1.Location = new System.Drawing.Point(53, 10);
             this.lblName1.Name = "lblName1";
-            this.lblName1.Size = new System.Drawing.Size(159, 13);
+            this.lblName1.Size = new System.Drawing.Size(159, 16);
             this.lblName1.TabIndex = 5;
             this.lblName1.Text = "label6";
             // 
             // lblName2
             // 
-            this.lblName2.Location = new System.Drawing.Point(53, 39);
+            this.lblName2.Font = new System.Drawing.Font("Rockwell Condensed", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblName2.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.lblName2.Location = new System.Drawing.Point(53, 36);
             this.lblName2.Name = "lblName2";
-            this.lblName2.Size = new System.Drawing.Size(156, 13);
+            this.lblName2.Size = new System.Drawing.Size(156, 16);
             this.lblName2.TabIndex = 6;
             this.lblName2.Text = "label7";
             // 
             // lblName3
             // 
-            this.lblName3.Location = new System.Drawing.Point(53, 65);
+            this.lblName3.Font = new System.Drawing.Font("Rockwell Condensed", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblName3.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.lblName3.Location = new System.Drawing.Point(53, 62);
             this.lblName3.Name = "lblName3";
-            this.lblName3.Size = new System.Drawing.Size(156, 13);
+            this.lblName3.Size = new System.Drawing.Size(156, 16);
             this.lblName3.TabIndex = 7;
             this.lblName3.Text = "label8";
             // 
             // lblName4
             // 
-            this.lblName4.Location = new System.Drawing.Point(53, 91);
+            this.lblName4.Font = new System.Drawing.Font("Rockwell Condensed", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblName4.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.lblName4.Location = new System.Drawing.Point(53, 88);
             this.lblName4.Name = "lblName4";
-            this.lblName4.Size = new System.Drawing.Size(156, 13);
+            this.lblName4.Size = new System.Drawing.Size(156, 16);
             this.lblName4.TabIndex = 8;
             this.lblName4.Text = "label9";
             // 
             // lblName5
             // 
-            this.lblName5.Location = new System.Drawing.Point(53, 117);
+            this.lblName5.Font = new System.Drawing.Font("Rockwell Condensed", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblName5.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.lblName5.Location = new System.Drawing.Point(53, 114);
             this.lblName5.Name = "lblName5";
-            this.lblName5.Size = new System.Drawing.Size(156, 13);
+            this.lblName5.Size = new System.Drawing.Size(156, 16);
             this.lblName5.TabIndex = 9;
             this.lblName5.Text = "label10";
             // 
             // lblScore5
             // 
+            this.lblScore5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblScore5.Location = new System.Drawing.Point(221, 117);
             this.lblScore5.Name = "lblScore5";
             this.lblScore5.Size = new System.Drawing.Size(48, 13);
@@ -141,6 +157,7 @@
             // 
             // lblScore4
             // 
+            this.lblScore4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblScore4.Location = new System.Drawing.Point(221, 91);
             this.lblScore4.Name = "lblScore4";
             this.lblScore4.Size = new System.Drawing.Size(45, 13);
@@ -149,6 +166,7 @@
             // 
             // lblScore3
             // 
+            this.lblScore3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblScore3.Location = new System.Drawing.Point(221, 65);
             this.lblScore3.Name = "lblScore3";
             this.lblScore3.Size = new System.Drawing.Size(45, 13);
@@ -157,6 +175,7 @@
             // 
             // lblScore2
             // 
+            this.lblScore2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblScore2.Location = new System.Drawing.Point(221, 39);
             this.lblScore2.Name = "lblScore2";
             this.lblScore2.Size = new System.Drawing.Size(51, 13);
@@ -165,6 +184,7 @@
             // 
             // lblScore1
             // 
+            this.lblScore1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblScore1.Location = new System.Drawing.Point(221, 13);
             this.lblScore1.Name = "lblScore1";
             this.lblScore1.Size = new System.Drawing.Size(48, 13);

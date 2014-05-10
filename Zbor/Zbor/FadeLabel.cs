@@ -8,7 +8,7 @@ using System.Windows.Forms;
 
 namespace Zbor
 {
-
+    //Klasa od internet za polnenje na keliite so bukvi vo gridot i kreiranje mapa na boi od RGB
     public class FadeLabel : Label
     {
         private Color _fadeFromBackColor = DefaultBackColor;
