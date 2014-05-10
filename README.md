@@ -157,7 +157,7 @@ private void definitionLink_LinkClicked(object sender, LinkLabelLinkClickedEvent
 ---
 <p>
 По погодувањето на зборот, доколку играчот сака да продолжи со играње, односно нова рунда, потребно е само повторно да притисне ЕНТЕР, исто како на почетокот, и играта започнува одново.<br/>
-<img src="http://imgur.com/AjyV2Zi.png" alt="Correct word"/>
+<img src="http://imgur.com/T2Gh49G.png" alt="Correct word"/>
 <br/>
 <br/>
 <b>Важна напомена: Целиот изворен код е пишуван во Visual Studio 2012, па за отворање и преглед на истиот потребно е во системот да биди инсталирана таа или некоја понова верзија на VS.</b>
