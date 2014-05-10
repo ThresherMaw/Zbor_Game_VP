@@ -16,12 +16,7 @@ namespace Zbor
 {
     public partial class Records : Form
     {
-        #region Promenlivi
-        //lista koja kje se populira so podatoci od txt datoteka
         List<User> users;
-        #endregion
-
-        #region Konstruktor
         public Records()
         {
             InitializeComponent();
@@ -29,9 +24,6 @@ namespace Zbor
             InicijalizacijaNaRekorderi();
             PopolnuvanjeLabeli();
         }
-        #endregion
-
-        #region Polnenje na tabelata so top 5 korisnici
         private void InicijalizacijaNaRekorderi()
         {
             StreamReader r = new StreamReader("Rekord.txt");
@@ -99,7 +91,6 @@ namespace Zbor
         {
             this.Close();
         }
-        //Klasa korisnik, za polesna organizacija na podatocite vo listata
         public class User
         {
             public string Name { get; set; }
@@ -114,6 +105,5 @@ namespace Zbor
                 return Name + " " + Score.ToString();
             }
         }
-        #endregion
     }
 }

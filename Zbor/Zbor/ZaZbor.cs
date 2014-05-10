@@ -10,11 +10,9 @@ namespace Zbor
 {
     public partial class ZaZbor : Form
     {
-        #region Konstruktor
         public ZaZbor()
         {
             InitializeComponent();
         }
-        #endregion
     }
 }
