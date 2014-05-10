@@ -85,7 +85,6 @@ private void PrikaziTocniBukvi()
             }
         } 
 ```
-<br />
 2. Метода за запишување на освоените поени во листата на рекорди. При затворање на играта на копчето Close (X) се појавува форма за внесување на името на играчот во листата. Таа се содржи од 5 рекорди подредени по опаѓачки редослед.
 ```
         protected override void OnFormClosing(FormClosingEventArgs e)
@@ -138,6 +137,28 @@ private void PrikaziTocniBukvi()
                     }
                     break;
                 }
+            }
+        }
+```
+3. Метода за прикажување на значењето на зборот. Во делот „Упатство“ објаснет е пристапот до значењето на зборот, а во следниот блок е прикажан позадинскиот код на истото.
+```
+private void definitionLink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            try
+            {
+                if (definitionLink.Text == "Што е Збор! ?")
+                {
+                    PrikaziZaZbor(sender, e);
+                    return;
+                }
+                string WordnetDefinitionUrl = @"http://www.makedonski.info/search/" + zborZaPogagjanje;
+                string GoogleDefinitionUrl = @"http://www.makedonski.info/search/" + zborZaPogagjanje;
+                System.Diagnostics.Process.Start(WordnetDefinitionUrl);
+            }
+            catch { }
+            finally
+            {
+                txtGuess.Focus();
             }
         }
 ```
