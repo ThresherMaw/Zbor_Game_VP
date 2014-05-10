@@ -167,13 +167,13 @@ private void definitionLink_LinkClicked(object sender, LinkLabelLinkClickedEvent
 <img src="http://imgur.com/T2Gh49G.png" alt="Correct word"/>
 <br/>
 <br/>
----
+
 <b>Важна напомена: Целиот изворен код е пишуван во Visual Studio 2012, па за отворање и преглед на истиот потребно е во системот да биди инсталирана таа или некоја понова верзија на VS.</b>
----
-<br/>
+
 <br/>
 <br/>
 </p>
+---
 <p align="right">
 Изработено од:
 <br/>
