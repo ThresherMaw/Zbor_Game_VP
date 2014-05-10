@@ -165,6 +165,8 @@ private void definitionLink_LinkClicked(object sender, LinkLabelLinkClickedEvent
 <br/>
 <br/>
 <br/>
+</p>
+<p align="right">
 Изработено од:
 <br/>
 Станоески Стефан 125040
