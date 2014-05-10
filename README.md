@@ -1,6 +1,5 @@
 Збор!
 ============
-<p> Ова е само пробен параграф </p>
     public partial class Zbor : Form
     {
         #region Za zborovite
