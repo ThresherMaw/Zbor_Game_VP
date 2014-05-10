@@ -39,7 +39,7 @@
 </ol>
 ---
 <h4> Издвоени методи </h4>
-<p><b>Играта во целост има голем број на методи, но овде ќе се спомнат само некои поважни<b></p>
+<p><b>Играта во целост има голем број на методи, но овде ќе се спомнат само некои поважни:<b></p>
 1. Метода за прикажување на точни (погодени) букви, кои се обојуваат со горе наведената боја и инстантно се запишуваат во наредната. Подетално методата е објаснета со следниот блок на код.
 ```
 private void PrikaziTocniBukvi()
@@ -85,4 +85,59 @@ private void PrikaziTocniBukvi()
             }
         } 
 ```
-
+<br />
+<br />
+2. Метода за запишување на освоените поени во листата на рекорди. При затворање на играта на копчето Close (X) се појавува форма за внесување на името на играчот во листата. Таа се содржи од 5 рекорди подредени по опаѓачки редослед.
+```
+        protected override void OnFormClosing(FormClosingEventArgs e)
+        {
+            if (e.CloseReason == CloseReason.WindowsShutDown) return;
+            List<Records.User> users = new List<Records.User>();
+            StreamReader r = new StreamReader("Rekord.txt");
+            while (!r.EndOfStream)
+            {
+                string[] tmp = r.ReadLine().Split(' ');
+                users.Add(new Records.User(tmp[0], Convert.ToInt32(tmp[1])));
+            }
+            r.Close();
+            List<Records.User> res;
+            foreach (Records.User current in users)
+            {
+                if (current.Score < Poeni)
+                {
+                    if (MessageBox.Show("Срушивте рекорд!\nДали сакате да го зачувате успехот?", "Рекорд!", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == System.Windows.Forms.DialogResult.Yes)
+                    {
+                        string ime = Interaction.InputBox("Внесете име", "Рекорд!", string.Empty, -1, -1);
+                        users = users.OrderByDescending(x => x.Score).ToList();
+                        Records.User pom = new Records.User(ime, Poeni);
+                        res = new List<Records.User>();
+                        bool isPassed = false;
+                        foreach (Records.User here in users)
+                        {
+                            if ((pom.Score > here.Score) && !isPassed)
+                            {
+                                res.Add(pom);
+                                res.Add(here);
+                                isPassed = true;
+                            }
+                            else
+                            {
+                                res.Add(here);
+                            }
+                        }
+                        res = res.OrderByDescending(x => x.Score).ToList();
+                        StreamWriter w = new StreamWriter("Rekord.txt");
+                        int k = 0;
+                        foreach (Records.User curr in res)
+                        {
+                            if (k == 5) break;
+                            w.WriteLine(curr);
+                            k++;
+                        }
+                        w.Close();
+                    }
+                    break;
+                }
+            }
+        }
+```
