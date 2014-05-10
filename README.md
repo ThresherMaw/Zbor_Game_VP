@@ -27,9 +27,6 @@
 <li>На почетокот се прикажуваат две букви кои се составен дел од зборот. По бирањето на зборот од архива, па се одлучува кои 2 букви од избраниот збор ќе се прикажат. Со доближување на курсорот до прикажаните букви се добива коментар дека тие се наоѓаат на точна позиција во зборот при што по внесувањето се обојуваат со светло сина боја. Од друга страна, доколку одредени букви кои играчот ги внесил, ги содржи генерираниот збор, но не се наоѓаат на правилната позиција, повторно се добива коментар, со спротивната порака и се обојуваат со кафеава боја. Тоа можеме да го забележиме од наредната слика. </li>
 </ul>
 <img src="http://imgur.com/RqQPmeN.png" alt ="Correct position"/>
-<ul>
-<li></li>
-</ul>
 ---
 <h4> Правила </h4>
 
@@ -95,43 +92,35 @@ private void PrikaziTocniBukvi()
             if (e.CloseReason == CloseReason.WindowsShutDown) return;
             List<Records.User> users = new List<Records.User>();
             StreamReader r = new StreamReader("Rekord.txt");
-            while (!r.EndOfStream)
-            {
+            while (!r.EndOfStream) {
                 string[] tmp = r.ReadLine().Split(' ');
                 users.Add(new Records.User(tmp[0], Convert.ToInt32(tmp[1])));
             }
             r.Close();
             List<Records.User> res;
-            foreach (Records.User current in users)
-            {
-                if (current.Score < Poeni)
-                {
+            foreach (Records.User current in users) {
+                if (current.Score < Poeni) {
                     if (MessageBox.Show("Срушивте рекорд!\nДали сакате да го зачувате успехот?", "Рекорд!",
-                    MessageBoxButtons.YesNo, MessageBoxIcon.Question) == System.Windows.Forms.DialogResult.Yes)
-                    {
-                        string ime = Interaction.InputBox("Внесете име", "Рекорд!", string.Empty, -1, -1);
+                    MessageBoxButtons.YesNo, MessageBoxIcon.Question) == System.Windows.Forms.DialogResult.Yes) {
+                        string ime = Interaction.InputBox("Внесете име", "Рекорд!", string.Empty, -1, -1); 
                         users = users.OrderByDescending(x => x.Score).ToList();
                         Records.User pom = new Records.User(ime, Poeni);
                         res = new List<Records.User>();
                         bool isPassed = false;
-                        foreach (Records.User here in users)
-                        {
-                            if ((pom.Score > here.Score) && !isPassed)
-                            {
+                        foreach (Records.User here in users) {
+                            if ((pom.Score > here.Score) && !isPassed) {
                                 res.Add(pom);
                                 res.Add(here);
                                 isPassed = true;
                             }
-                            else
-                            {
+                            else {
                                 res.Add(here);
                             }
                         }
                         res = res.OrderByDescending(x => x.Score).ToList();
                         StreamWriter w = new StreamWriter("Rekord.txt");
                         int k = 0;
-                        foreach (Records.User curr in res)
-                        {
+                        foreach (Records.User curr in res){
                             if (k == 5) break;
                             w.WriteLine(curr);
                             k++;
@@ -165,3 +154,18 @@ private void definitionLink_LinkClicked(object sender, LinkLabelLinkClickedEvent
             }
         }
 ```
+---
+<p>
+По погодувањето на зборот, доколку играчот сака да продолжи со играње, односно нова рунда, потребно е само повторно да притисне ЕНТЕР, исто како на почетокот, и играта започнува одново.<br/>
+<img src="http://imgur.com/AjyV2Zi.png" alt="Correct word"/>
+<br/>
+<br/>
+<b>Важна напомена: Целиот изворен код е пишуван во Visual Studio 2012, па за отворање и преглед на истиот потребно е во системот да биди инсталирана таа или некоја понова верзија на VS.</b>
+</p>
+
+
+
+
+
+
+
