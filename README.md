@@ -35,3 +35,71 @@
 <li>Полето за текст прифаќа <b>САМО</b> кирилични букви. (Мора да се пишува со македонска поддршка)</li>
 <li>Доколку постигните и/или срушите рекорд, имате право да се запишете во листата на рекорди.</li>
 </ol>
+<h4> Издвоени методи </h4>
+---
+<p>Играта во целост има голем број на методи, но овде ќе се спомнат само некои поважни</p>
+<ul>
+<li>Метода за прикажување на точни (погодени) букви, кои се обојуваат со горе наведената боја и инстантно се запишуваат во наредната. Подетално методата е објаснета со следниот блок на код.
+```
+private void PrikaziTocniBukvi()
+        {
+            // Od site bukvi, proveri koi se vekje pogodeni
+            int labelPosition = 0;
+            lock (tocniBukvi)
+            {
+                for (int i = 0; i < dolzinaZbor; i++)
+                {
+                    labelPosition = momentalnaSostojba * dolzinaZbor + i;
+
+                    // Prikazi go tocno vneseniot zbor na tocna pozicija
+                    layout.Controls[labelPosition].Text = txtGuess.Text[i] + "";
+
+                    // Ako se sovpagja bukva
+                    if (txtGuess.Text[i] == zborZaPogagjanje[i])
+                    {
+                        // Oznaci ja za resena
+                        tocniBukvi[i] = true;
+
+                        // Prikazi ja resenata bukva vo zeleno
+                        FadeLabel fl = layout.Controls[labelPosition] as FadeLabel;
+                        fl.FadeFromForeColor = Label.DefaultBackColor;
+                        fl.FadeFromBackColor = Label.DefaultBackColor;
+                        fl.FadeToBackColor = Color.Aqua;
+                        fl.FadeFromForeColor = Label.DefaultForeColor;
+                        fl.Fade();
+                        layout.Controls[labelPosition].Font = bold;
+                        SetLetterToolTip(layout.Controls[labelPosition], true);
+                    }
+
+                    // Prikazi gi site tocno vneseni bukvi vo naredniot red
+                    if (momentalnaSostojba < GameState.posledenObid && tocniBukvi[i])
+                    {
+                        layout.Controls[labelPosition + dolzinaZbor].Text = zborZaPogagjanje[i] + "";
+                        SetLetterToolTip(layout.Controls[labelPosition + dolzinaZbor], true);
+                    }
+
+                    // Oznaci samo ako se bukvite isti
+                    bukviVoZbor[i] = (txtGuess.Text[i] == zborZaPogagjanje[i]);
+                }
+            }
+        }
+```
+</li>
+
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
