@@ -1,0 +1,8 @@
+C:\Users\Stefan\Desktop\VP\Zbor\Originalna igra\Lingo\bin\Debug\Lingo.exe
+C:\Users\Stefan\Desktop\VP\Zbor\Originalna igra\Lingo\bin\Debug\Lingo.pdb
+C:\Users\Stefan\Desktop\VP\Zbor\Originalna igra\Lingo\obj\Debug\Lingo.csprojResolveAssemblyReference.cache
+C:\Users\Stefan\Desktop\VP\Zbor\Originalna igra\Lingo\obj\Debug\Lingo.Lingo.resources
+C:\Users\Stefan\Desktop\VP\Zbor\Originalna igra\Lingo\obj\Debug\Lingo.Properties.Resources.resources
+C:\Users\Stefan\Desktop\VP\Zbor\Originalna igra\Lingo\obj\Debug\Lingo.csproj.GenerateResource.Cache
+C:\Users\Stefan\Desktop\VP\Zbor\Originalna igra\Lingo\obj\Debug\Lingo.exe
+C:\Users\Stefan\Desktop\VP\Zbor\Originalna igra\Lingo\obj\Debug\Lingo.pdb

@@ -1,0 +1,54 @@
+c:\users\stefan\documents\visual studio 2012\Projects\Zbor\Zbor\bin\Debug\Zbor.exe.config
+c:\users\stefan\documents\visual studio 2012\Projects\Zbor\Zbor\obj\Debug\Zbor.csprojResolveAssemblyReference.cache
+c:\users\stefan\documents\visual studio 2012\Projects\Zbor\Zbor\obj\Debug\Zbor.Properties.Resources.resources
+c:\users\stefan\documents\visual studio 2012\Projects\Zbor\Zbor\obj\Debug\Zbor.Zbor.resources
+c:\users\stefan\documents\visual studio 2012\Projects\Zbor\Zbor\obj\Debug\Zbor.csproj.GenerateResource.Cache
+c:\users\stefan\documents\visual studio 2012\Projects\Zbor\Zbor\obj\Debug\Zbor.ZaZbor.resources
+c:\users\stefan\documents\visual studio 2012\Projects\Zbor\Zbor\bin\Debug\Zbor.exe
+c:\users\stefan\documents\visual studio 2012\Projects\Zbor\Zbor\bin\Debug\Zbor.pdb
+c:\users\stefan\documents\visual studio 2012\Projects\Zbor\Zbor\obj\Debug\Zbor.exe
+c:\users\stefan\documents\visual studio 2012\Projects\Zbor\Zbor\obj\Debug\Zbor.pdb
+D:\finki\vtora\cetvrt semestar\vizuelno\proektna\Zbor\Zbor\bin\Debug\Zbor.exe.config
+D:\finki\vtora\cetvrt semestar\vizuelno\proektna\Zbor\Zbor\obj\Debug\Zbor.exe
+D:\finki\vtora\cetvrt semestar\vizuelno\proektna\Zbor\Zbor\obj\Debug\Zbor.pdb
+C:\Users\Stefan\Desktop\VP\Zbor\Zbor\bin\Debug\Zbor.exe.config
+C:\Users\Stefan\Desktop\VP\Zbor\Zbor\obj\Debug\Zbor.exe
+C:\Users\Stefan\Desktop\VP\Zbor\Zbor\obj\Debug\Zbor.pdb
+C:\Users\Stefan\Desktop\VP\Zbor\Zbor\bin\Debug\Zbor.exe
+C:\Users\Stefan\Desktop\VP\Zbor\Zbor\bin\Debug\Zbor.pdb
+C:\Users\Stefan\Desktop\VP\Zbor\Zbor\obj\Debug\Zbor.csprojResolveAssemblyReference.cache
+C:\Users\Stefan\Desktop\VP\Zbor\Zbor\obj\Debug\Zbor.Properties.Resources.resources
+C:\Users\Stefan\Desktop\VP\Zbor\Zbor\obj\Debug\Zbor.Records.resources
+C:\Users\Stefan\Desktop\VP\Zbor\Zbor\obj\Debug\Zbor.ZaZbor.resources
+C:\Users\Stefan\Desktop\VP\Zbor\Zbor\obj\Debug\Zbor.Zbor.resources
+C:\Users\Stefan\Desktop\VP\Zbor\Zbor\obj\Debug\Zbor.csproj.GenerateResource.Cache
+C:\Users\Stefan\Desktop\Zbor\Zbor\bin\Debug\Zbor.exe.config
+C:\Users\Stefan\Desktop\Zbor\Zbor\obj\Debug\Zbor.exe
+C:\Users\Stefan\Desktop\Zbor\Zbor\obj\Debug\Zbor.pdb
+C:\Users\Stefan\Desktop\Zbor\Zbor\bin\Debug\Zbor.exe
+C:\Users\Stefan\Desktop\Zbor\Zbor\bin\Debug\Zbor.pdb
+C:\Users\Stefan\Desktop\Zbor\Zbor\obj\Debug\Zbor.csprojResolveAssemblyReference.cache
+C:\Users\Stefan\Desktop\Zbor\Zbor\obj\Debug\Zbor.Properties.Resources.resources
+C:\Users\Stefan\Desktop\Zbor\Zbor\obj\Debug\Zbor.Records.resources
+C:\Users\Stefan\Desktop\Zbor\Zbor\obj\Debug\Zbor.ZaZbor.resources
+C:\Users\Stefan\Desktop\Zbor\Zbor\obj\Debug\Zbor.Zbor.resources
+C:\Users\Stefan\Desktop\Zbor\Zbor\obj\Debug\Zbor.csproj.GenerateResource.Cache
+D:\finki\vtora\cetvrt semestar\vizuelno\proektna\Zbor\Zbor\bin\Debug\Zbor.exe
+D:\finki\vtora\cetvrt semestar\vizuelno\proektna\Zbor\Zbor\bin\Debug\Zbor.pdb
+D:\finki\vtora\cetvrt semestar\vizuelno\proektna\Zbor\Zbor\obj\Debug\Zbor.csprojResolveAssemblyReference.cache
+D:\finki\vtora\cetvrt semestar\vizuelno\proektna\Zbor\Zbor\obj\Debug\Zbor.Properties.Resources.resources
+D:\finki\vtora\cetvrt semestar\vizuelno\proektna\Zbor\Zbor\obj\Debug\Zbor.Records.resources
+D:\finki\vtora\cetvrt semestar\vizuelno\proektna\Zbor\Zbor\obj\Debug\Zbor.ZaZbor.resources
+D:\finki\vtora\cetvrt semestar\vizuelno\proektna\Zbor\Zbor\obj\Debug\Zbor.Zbor.resources
+D:\finki\vtora\cetvrt semestar\vizuelno\proektna\Zbor\Zbor\obj\Debug\Zbor.csproj.GenerateResource.Cache
+D:\finki\vtora\cetvrt semestar\vizuelno\proektna\Final\Zbor\Zbor\bin\Debug\Zbor.exe.config
+D:\finki\vtora\cetvrt semestar\vizuelno\proektna\Final\Zbor\Zbor\obj\Debug\Zbor.exe
+D:\finki\vtora\cetvrt semestar\vizuelno\proektna\Final\Zbor\Zbor\obj\Debug\Zbor.pdb
+D:\finki\vtora\cetvrt semestar\vizuelno\proektna\Final\Zbor\Zbor\bin\Debug\Zbor.exe
+D:\finki\vtora\cetvrt semestar\vizuelno\proektna\Final\Zbor\Zbor\bin\Debug\Zbor.pdb
+D:\finki\vtora\cetvrt semestar\vizuelno\proektna\Final\Zbor\Zbor\obj\Debug\Zbor.csprojResolveAssemblyReference.cache
+D:\finki\vtora\cetvrt semestar\vizuelno\proektna\Final\Zbor\Zbor\obj\Debug\Zbor.Properties.Resources.resources
+D:\finki\vtora\cetvrt semestar\vizuelno\proektna\Final\Zbor\Zbor\obj\Debug\Zbor.Records.resources
+D:\finki\vtora\cetvrt semestar\vizuelno\proektna\Final\Zbor\Zbor\obj\Debug\Zbor.ZaZbor.resources
+D:\finki\vtora\cetvrt semestar\vizuelno\proektna\Final\Zbor\Zbor\obj\Debug\Zbor.Zbor.resources
+D:\finki\vtora\cetvrt semestar\vizuelno\proektna\Final\Zbor\Zbor\obj\Debug\Zbor.csproj.GenerateResource.Cache

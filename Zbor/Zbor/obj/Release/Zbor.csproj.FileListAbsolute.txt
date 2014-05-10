@@ -1,0 +1,11 @@
+C:\Users\Stefan\Desktop\VP\Zbor\Zbor\bin\Release\Zbor.exe.config
+C:\Users\Stefan\Desktop\VP\Zbor\Zbor\bin\Release\Zbor.exe
+C:\Users\Stefan\Desktop\VP\Zbor\Zbor\bin\Release\Zbor.pdb
+C:\Users\Stefan\Desktop\VP\Zbor\Zbor\obj\Release\Zbor.csprojResolveAssemblyReference.cache
+C:\Users\Stefan\Desktop\VP\Zbor\Zbor\obj\Release\Zbor.Properties.Resources.resources
+C:\Users\Stefan\Desktop\VP\Zbor\Zbor\obj\Release\Zbor.Records.resources
+C:\Users\Stefan\Desktop\VP\Zbor\Zbor\obj\Release\Zbor.ZaZbor.resources
+C:\Users\Stefan\Desktop\VP\Zbor\Zbor\obj\Release\Zbor.Zbor.resources
+C:\Users\Stefan\Desktop\VP\Zbor\Zbor\obj\Release\Zbor.csproj.GenerateResource.Cache
+C:\Users\Stefan\Desktop\VP\Zbor\Zbor\obj\Release\Zbor.exe
+C:\Users\Stefan\Desktop\VP\Zbor\Zbor\obj\Release\Zbor.pdb
