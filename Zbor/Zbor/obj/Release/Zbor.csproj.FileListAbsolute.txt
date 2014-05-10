@@ -9,3 +9,14 @@ C:\Users\Stefan\Desktop\VP\Zbor\Zbor\obj\Release\Zbor.Zbor.resources
 C:\Users\Stefan\Desktop\VP\Zbor\Zbor\obj\Release\Zbor.csproj.GenerateResource.Cache
 C:\Users\Stefan\Desktop\VP\Zbor\Zbor\obj\Release\Zbor.exe
 C:\Users\Stefan\Desktop\VP\Zbor\Zbor\obj\Release\Zbor.pdb
+D:\finki\vtora\cetvrt semestar\vizuelno\proektna\Final\Zbor\Zbor\bin\Release\Zbor.exe.config
+D:\finki\vtora\cetvrt semestar\vizuelno\proektna\Final\Zbor\Zbor\obj\Release\Zbor.exe
+D:\finki\vtora\cetvrt semestar\vizuelno\proektna\Final\Zbor\Zbor\obj\Release\Zbor.pdb
+D:\finki\vtora\cetvrt semestar\vizuelno\proektna\Final\Zbor\Zbor\bin\Release\Zbor.exe
+D:\finki\vtora\cetvrt semestar\vizuelno\proektna\Final\Zbor\Zbor\bin\Release\Zbor.pdb
+D:\finki\vtora\cetvrt semestar\vizuelno\proektna\Final\Zbor\Zbor\obj\Release\Zbor.csprojResolveAssemblyReference.cache
+D:\finki\vtora\cetvrt semestar\vizuelno\proektna\Final\Zbor\Zbor\obj\Release\Zbor.Properties.Resources.resources
+D:\finki\vtora\cetvrt semestar\vizuelno\proektna\Final\Zbor\Zbor\obj\Release\Zbor.Records.resources
+D:\finki\vtora\cetvrt semestar\vizuelno\proektna\Final\Zbor\Zbor\obj\Release\Zbor.ZaZbor.resources
+D:\finki\vtora\cetvrt semestar\vizuelno\proektna\Final\Zbor\Zbor\obj\Release\Zbor.Zbor.resources
+D:\finki\vtora\cetvrt semestar\vizuelno\proektna\Final\Zbor\Zbor\obj\Release\Zbor.csproj.GenerateResource.Cache
