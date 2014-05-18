@@ -172,7 +172,7 @@ private void definitionLink_LinkClicked(object sender, LinkLabelLinkClickedEvent
 </p>
 ---
 <p align="right">
-Изработено од:
+<b>Изработено од:</b>
 <br/>
 Станоески Стефан 125040
 <br/>
